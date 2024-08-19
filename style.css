@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1256px;
+  margin: auto;
+}
+.nav__wrapper {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.nav__img {
+  padding-left: 91px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  padding-right: 145px;
+}
+
+.nav__list__item a {
+  list-style: none;
+  text-decoration: none;
+  color: #9093a6;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  transition: 1s;
+}
+
+.nav__list__item a:hover {
+  transition: 0.5s;
+  color: rgb(246, 45, 9);
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__text {
+  margin-top: 209px;
+}
+
+.hero__title {
+  font-weight: 300;
+  font-size: 58px;
+  letter-spacing: 5%;
+  line-height: 64px;
+  color: #3f4255;
+}
+
+.hero__img > img {
+  height: 649px;
+}
+
+.hero__btn {
+  margin-top: 10px;
+  border: 1px solid #ffe145;
+  padding: 25px 25px;
+  text-align: center;
+  color: #3f4255;
+  background: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.hero__btn:hover {
+  transition: 0.6s;
+  background-color: #ffe145;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 162px;
+}
+
+.restaurants__btn {
+  padding: 16px 24px 16px 24px;
+  background: #f2f4fa;
+  border: none;
+  cursor: pointer;
+}
+
+.restaurants {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.restaurants__btn:hover {
+  transition: 0.7s;
+  background-color: teal;
+  border-radius: 8px;
+}
+
+.restaurants__btn > a {
+  text-decoration: none;
+  color: #9093a6;
+  transition: 0.7s;
+}
+
+.restaurants__btn > a:hover {
+  color: #fff;
+}
+
+.restaurants__btn {
+  transition: 0.7s;
+  text-align: center;
+  display: flex;
+}
+
+.Restaurant__img {
+  margin-top: 48px;
+  display: flex;
+  margin-bottom: 72px;
+}
+
+.placing-order {
+  background: #f2f4fa;
+  width: 100%;
+}
+
+.placing-order__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.placing-order__title {
+  color: #3f4255;
+  margin-top: 81px;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.placing-order__info {
+  color: #3f4255;
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+
+.placing-order__input {
+  margin-top: 81px;
+  padding: 18px;
+  width: 320px;
+  border-radius: 6px;
+  border: none;
+}
+
+.placing-order__input:focus {
+  border: none;
+  outline: none;
+}
+
+.placing-order___btn {
+  padding: 18px;
+  background: #ffe145;
+  color: #b79c10;
+  border-radius: 4px;
+  border: none;
+  transition: 1s;
+}
+
+.placing-order___btn:hover {
+  transition: 0.7s;
+  background-color: #b79c10;
+  color: #000;
+}
+
+.wrapper__bg {
+  background-image: url(./images/Mapsicle\ Map.png);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper__instagram {
+  display: flex;
+  gap: 5px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 8%;
+  font-size: 36px;
+}
+
+.wrapper__in-inistagram {
+  color: #767a93;
+}
